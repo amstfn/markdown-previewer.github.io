@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Markdown Editor and Previewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of a Markdown editor and a previewer. The editor allows you to write and edit Markdown text, while the previewer displays the rendered HTML output in real-time.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Live preview: As you type in the editor, the previewer updates to show the rendered HTML output.
+- Markdown parsing: The previewer uses the `marked` library to parse Markdown syntax and convert it to HTML.
+- Customizations: The previewer highlights specific words, such as "if", "function", and "return", with custom CSS classes to provide visual emphasis.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```shell
+   git clone https://github.com/your-username/markdown-editor.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Change into the project directory:
 
-### `npm run build`
+   ```shell
+   cd markdown-editor
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
 
-### `npm run eject`
+1. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```shell
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Open your web browser and visit `http://localhost:3000` to access the Markdown editor and previewer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. In the editor, you can enter Markdown text. The previewer will display the rendered HTML output in real-time.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Dependencies
 
-## Learn More
+The project relies on the following dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `React` - JavaScript library for building user interfaces.
+- `DOMPurify` - Library for sanitizing HTML to prevent cross-site scripting (XSS) attacks.
+- `marked` - Fast Markdown parser and compiler.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Folder Structure
 
-### Code Splitting
+The project has the following structure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Editor.js
+│   │   └── Preview.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
 
-### Analyzing the Bundle Size
+- `public/`: Contains the HTML file and other static assets.
+- `src/`: Contains the source code files.
+  - `components/`: Contains the editor and previewer components.
+  - `index.js`: Entry point of the application.
+- `package.json`: Configuration file for npm dependencies and scripts.
+- `README.md`: This file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
+- The Markdown parsing functionality is provided by the `marked` library.
+- The HTML sanitization is performed using the `DOMPurify` library.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
