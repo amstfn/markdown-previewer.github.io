@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/markdown-previewer.github.io/static/css/main.4fb870ef.css",
+    "main.js": "/markdown-previewer.github.io/static/js/main.59ecd272.js",
+    "index.html": "/markdown-previewer.github.io/index.html",
+    "main.4fb870ef.css.map": "/markdown-previewer.github.io/static/css/main.4fb870ef.css.map",
+    "main.59ecd272.js.map": "/markdown-previewer.github.io/static/js/main.59ecd272.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb870ef.css",
+    "static/js/main.59ecd272.js"
+  ]
+}
