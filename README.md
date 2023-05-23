@@ -1,5 +1,3 @@
-Sure! Here's an example of an official README.md for the provided components:
-
 # Markdown Editor and Previewer
 
 This project consists of a Markdown editor and a previewer. The editor allows you to write and edit Markdown text, while the previewer displays the rendered HTML output in real-time.
@@ -81,15 +79,9 @@ The project has the following structure:
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 - The Markdown parsing functionality is provided by the `marked` library.
 - The HTML sanitization is performed using the `DOMPurify` library.
 
 ---
-
-That's it! You can use this README.md as a starting point for your project on GitHub. Feel free to customize it further based on your specific needs and preferences.
