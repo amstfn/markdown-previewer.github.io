@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(52, 229, 164);
+}
+
+.container {
+    width: 100vw;
+}
+
+.editor-container {
+    width: 40vw;
+    height: 30vh;
+    margin: 30px auto;
+    border: 1px solid #212121;
+    box-shadow: 2px 10px 20px -2px black;
+}
+
+.head {
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid #212121;
+    background-color: rgb(40, 186, 135);
+    padding: 1vh 1vw;
+}
+
+#editor {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(181, 211, 200);
+    padding: 1vh 1vw;
+    resize: none;
+}
+
+.preview-container {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto 30px auto;
+    box-shadow: 2px 10px 20px -2px black;
+    border: 1px solid #212121;
+}
+
+#preview {
+    width: 100%;
+    background-color: rgb(181, 211, 200);
+    padding: 2vh 2vw;
+    font-family: 'Ysabeau', sans-serif;
+    overflow-wrap: break-word;
+}
+
+.head-name {
+    font-family: 'Pangolin', cursive;
+    font-weight: 600;
+    font-size: large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+code,
+pre,
+img {
+    margin: 2vh 0;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.7vh;
+    font-weight: 700;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 0.7vh;
+}
+
+img {
+    width: 50vw;
+    height: 10vh;
+}
+
+.container code {
+    display: inline;
+    background-color: aliceblue;
+}
+
+.container pre {
+    display: block;
+    background-color: aliceblue;
+}
+
+.container code .if-function-return,
+.container pre .if-function-return {
+    color: rgb(199, 56, 56);
+}
+
+.container code .function,
+.container pre .function {
+    color: rgb(87, 169, 236);
+}
+
+.container code .combinations,
+.container pre .combinations {
+    color: rgb(139, 63, 232);
+}
+
+p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 2vh 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2vh 0;
+}
+
+table caption {
+    color: #356eaf;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+tbody,
+thead,
+tbody,
+tbody td,
+tbody th,
+tbody tr,
+thead td,
+thead th,
+thead tr {
+    border: 2px solid black;
+    text-align: center;
+}
+
+ul,
+ol {
+    margin: 1vh 0;
+}
+
+ul li {
+    margin-left: 2vw;
+}
+
+blockquote {
+    border-left: 3px solid #555;
+    padding-left: 0.5vw;
+    margin: 1vh 2vw;
+    color: #555;
+}
